@@ -2,6 +2,6 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 module.exports = { 
-    PERSONAL_MNEUMONIC: process.env.PERSONAL_MNEUMONIC, 
+    PERSONAL_MNEMONIC: process.env.PERSONAL_MNEMONIC, 
     PROVIDER_URL: process.env.PROVIDER_URL 
 };

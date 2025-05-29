@@ -2,10 +2,10 @@ const HDWalletProvider = require('@truffle/hdwallet-provider');
 const { Web3 } = require('web3');
 //updated web3 and hdwallet-provider imports added for convenience
 const {interface, bytecode} = require('./compile');
-const {PERSONAL_MNEUMONIC, PROVIDER_URL} = require('./config')
+const {PERSONAL_MNEMONIC, PROVIDER_URL} = require('./config')
 // deploy code will go here
 const provider = new HDWalletProvider({
-    mnemonic: PERSONAL_MNEUMONIC,
+    mnemonic: PERSONAL_MNEMONIC,
     providerOrUrl: PROVIDER_URL,
     numberOfAddresses: 1,
     shareNonce: true,
